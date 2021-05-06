@@ -12,7 +12,7 @@
 
   "content_scripts": [
     {
-      "matches": ["*://*.dodopizza.ru/*"],
+      "matches": ["*://dodopizza.ru/*"],
       "js": ["pizza_helper.js"]
     }
   ]
