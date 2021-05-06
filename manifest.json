@@ -1,12 +1,13 @@
 {
-  "manifest_version": 1,
+  "manifest_version": 2,
   "name": "Pizza Helper",
   "version": "1.0",
 
   "description": "Adds a filter by ingredients to dodopizza.ru .",
 
   "icons": {
-    "bird": "dodo.png"
+    "48": "icons/48.png",
+    "96": "icons/96.png"
   },
 
   "content_scripts": [
