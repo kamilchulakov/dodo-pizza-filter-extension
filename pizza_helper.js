@@ -51,4 +51,4 @@ function onGot(item) {
 
 let getting = chrome.storage.sync.get("ingredient", function(result) {
     console.log('Value currently is ' + result.key);});
-getting.then(onGot, onError);
+if (getting != null) getting.then(onGot, onError);
