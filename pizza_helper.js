@@ -39,8 +39,8 @@ function onGot(item) {
                     el.parentNode.removeChild(el);
                 }
             }
-            for (var i = 0; i < list.length; i++) {
-                var el = list[i];
+            for (i = 0; i < list.length; i++) {
+                el = list[i];
                 if (el.firstChild.textContent.toLowerCase().includes(ingredient)) {
                     el.parentNode.removeChild(el);
                 }
